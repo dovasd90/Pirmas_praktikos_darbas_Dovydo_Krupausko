@@ -1,5 +1,6 @@
 package com.example.pirmas_praktikos_darbas_dovydo_krupausko;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -27,5 +28,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void BtnChgTxtClck(View view) {
         this.TvMain.setText("Hello");
+    }
+    public void BtnColourChg(View view) {
+        this.TvMain.setTextColor(Color.RED);
     }
 }
